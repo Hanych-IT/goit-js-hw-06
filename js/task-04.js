@@ -8,11 +8,11 @@ addClickBtn.addEventListener('click', decrementEl);
 removeClickBtn.addEventListener('click', incrementEl);
 
 function decrementEl() {
-    counterValue -= 1;
-    onTargetCounter.textContent = counterValue;
+  counterValue -= 1;
+  onTargetCounter.textContent = counterValue;
 }
 
 function incrementEl() {
-    counterValue += 1;
-    onTargetCounter.textContent = counterValue;
+  counterValue += 1;
+  onTargetCounter.textContent = counterValue;
 }
