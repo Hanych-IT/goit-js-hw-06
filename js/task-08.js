@@ -7,7 +7,7 @@ formEl.addEventListener('submit', event => {
   } = event.currentTarget;
 
   if (email.value === '' || password.value === '') {
-    alert('Заполнить все поля');
+    return alert('Заполнить все поля');
   }
 
   const objectValue = { Email: email.value, Password: password.value };
